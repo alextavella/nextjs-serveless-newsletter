@@ -4,7 +4,7 @@ import React, { useCallback, useState } from "react";
 import Input from "../components/Input";
 
 export default function Home() {
-  const [email, setEmail] = useState<string>("eu.alextavella@gmail.com");
+  const [email, setEmail] = useState<string>("");
 
   const handleSignUpToNewsletter = useCallback(
     async (event: React.FormEvent) => {
